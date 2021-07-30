@@ -15,7 +15,10 @@ print('Creating an Empty List' '\n')
 #   2. Print the lists.
 #
 # WRITE CODE BELOW
-
+list1 = []
+list2 = list()
+print(list1)
+print(list2)
 
 print('\n' 'Creating a Pre-Populated List' '\n')
 # 2. Creating a Pre-Populated List
@@ -34,7 +37,17 @@ print('\n' 'Creating a Pre-Populated List' '\n')
 #
 # WRITE CODE BELOW
 integers = [1, 15, -4, -26, 34]
+floats = [1.03, 67.8, -09.78, 22.3, 4.33]
+boolean_values = [True, False]
+animals = ['panda', 'unicorn', 'dinosaur']
+objects = [7.09, 'fairy', 90]
+print()
 
+print(integers)
+print(floats)
+print(boolean_values)
+print(animals)
+print(objects)
 
 # -------------------- Section 2 ------------------------- #
 # ---------------- List Modification --------------------- #
@@ -54,8 +67,21 @@ print('Accessing and Modifying a List' '\n')
 #   1.a has been done for you.
 #
 # WRITE CODE BELOW
+print()
 integers[2] = 44
+floats[4] = 24.7
+boolean_values[0] 
+animals[2] = 'dragon'
+objects[1] = 'alligator'
 
+print(integers)
+print(floats)
+print(boolean_values)
+print(animals)
+print(objects)
+print()
+
+# Booleans --> Data Type (True, False)
 
 print('\n' 'Append, Insert, and Remove' '\n')
 # 2. Accessing and Modifying a List
@@ -73,7 +99,10 @@ print('\n' 'Append, Insert, and Remove' '\n')
 #
 # WRITE CODE BELOW
 integers.append(25)
-
+floats.append(15.6)
+boolean_values.remove()
+animals.insert()
+objects.insert
 
 print('\n' 'List Concatenation' '\n')
 # 3. List Concatenation
@@ -91,12 +120,12 @@ print('\n' 'List Concatenation' '\n')
 #   Examples are below for reference
 #
 # WRITE CODE BELOW
-example_concatenation = [1, 2, 3] + ['cat', 'dog']
-example_duplication = ['cat'] * 5
+things1 = integers + floats
+things2 = animals * 5
 print(
     '\n'
-    f'example_concatenation | {example_concatenation}' '\n'
-    f'example_duplication | {example_duplication}' '\n'
+    f'things1 | {things1}' '\n'
+    f'things2 | {things2}' '\n'
 )
 
 
@@ -115,6 +144,11 @@ print('Looping' '\n')
 #   An example has been shown below:
 #
 # WRITE CODE BELOW
+for i in range(list1):
+    print(list1)
+
+for i in range(list2):
+    pass
 
 
 # -------------------- Section 4 ------------------------- #
